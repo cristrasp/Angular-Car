@@ -1,19 +1,128 @@
 {
-  "posts": [
+  "cars": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+    "id": 1,
+    "make": "Nissan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Nissan_Ariya%2C_left_front%2C_Nissan_Gallery_HQ%2C_2021.jpg",
+    "type": "New"
+  },
+  {
+    "id": 2,
+    "make": "Opel",
+    "image": "https://www.gruppofarina.com/media/3189/opel-nuova-corsadesign-grintoso.png",
+    "type": "New"
+  },
+  {
+    "id": 3,
+    "make": "Audi",
+    "image": "https://wheels.iconmagazine.it/content/uploads/2019/11/Audi-A4-936x703.jpg",
+    "type": "New"
+  },
+  {
+    "id": 6,
+    "make": "Fiat",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/1971_Fiat_500L_Front.jpg/359px-1971_Fiat_500L_Front.jpg",
+    "type": "Old"
+  },
+  {
+    "id": 7,
+    "make": "Ferrari",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/800px-F40_Ferrari_20090509.jpg",
+    "type": "Old"
+  },
+  {
+    "id": 8,
+    "make": "VW",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/driving-classic-vw-lead-1597355901.jpg",
+    "type": "Old"
   }
+  ],
+  "carsModel":  [
+    {
+      "make": "Nissan",
+      "model": "Qashqai",
+      "type": "New"
+    },
+    {
+      "make": "Nissan",
+      "model": "Micra",
+      "type": "New"
+    },
+    {
+      "make": "Nissan",
+      "model": "Juke",
+      "type": "New"
+    },
+    {
+      "make": "Opel",
+      "model": "Corsa",
+      "type": "New"
+    },
+    {
+      "make": "Opel",
+      "model": "Vectra",
+      "type": "New"
+    },
+    {
+      "make": "Opel",
+      "model": "Zafira",
+      "type": "New"
+    },
+    {
+      "make": "Audi",
+      "model": "A1",
+      "type": "New"
+    },
+    {
+      "make": "Audi",
+      "model": "A3",
+      "type": "New"
+    },
+    {
+      "make": "Fiat",
+      "model": "500",
+      "type": "Old"
+    },
+    {
+      "make": "Fiat",
+      "model": "600",
+      "type": "Old"
+    },
+    {
+      "make": "Fiat",
+      "model": "Uno",
+      "type": "Old"
+    },
+    {
+      "make": "Ferrari",
+      "model": "Portofino",
+      "type": "Old"
+    },
+    {
+      "make": "Ferrari",
+      "model": "Roma",
+      "type": "Old"
+    },
+    {
+      "make": "Ferrari",
+      "model": "F8",
+      "type": "Old"
+    },
+    {
+      "make": "VW",
+      "model": "Polo",
+      "type": "Old"
+    },
+    {
+      "make": "VW",
+      "model": "Golf",
+      "type": "Old"
+    },
+    {
+      "make": "VW",
+      "model": "Passat",
+      "type": "New"
+    }
+  ]
 }
+
