@@ -1,0 +1,14 @@
+<div>
+  <h2>New Cars</h2>
+  <app-results (sizeEmit)='onRadioChange($evetn)'></app-results>
+  <div class="row">
+    <div class="col-4" *ngFor='let car of newCars'>
+      <app-card [car]='car' (make)='getCarByMake($event)'>
+
+      </app-card>
+    </div>
+
+  </div>
+
+
+</div>

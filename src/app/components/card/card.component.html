@@ -1,0 +1,10 @@
+<div class='card cardStyle' (click)='getCarsByMake(car.make)'>
+  <div style="text-align: center;" *ngIf='car.image'>
+    <img class="card-image-top" width="200" height="150" [src]='car.image' alt="Card Image">
+  </div>
+
+  <div class="card-body">
+    <h5>{{car.make}} <span *ngIf='car.model'>- {{car.model}}</span> </h5>
+
+  </div>
+</div>
